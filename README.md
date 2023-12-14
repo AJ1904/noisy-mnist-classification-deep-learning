@@ -4,7 +4,7 @@ This study focuses on classifying images within the noisy MNIST dataset. Introdu
 Surprisingly, despite higher noise, deep neural networks show an ability to be trained effectively in recognizing these digits.
 
 ## Dataset
-This study uses a dataset for CSCE 636 Deep Learning class, which cannot be publicly shared. Both the train and test datasets have higher noise levels compared to the shown images. A portion (20%) of the train dataset was randomly reserved for testing.
+This study uses a dataset for CSCE 636 Deep Learning class, which cannot be publicly shared. Both the train and test datasets have higher noise levels compared to the shown images, probably random gaussian noise. A portion (20%) of the train dataset was randomly reserved for testing.
 
 ## Training
 * Used categorical_entropy as the loss function and Adam as optimizer.
